@@ -29,11 +29,11 @@ export default function SpecialProjectSection() {
 
     // Placeholder data
     const apecItems = [1, 2, 3, 4];
-    const schoolItems = [1, 2];
+    const schoolItems = [1];
     const hospitalItems = [1, 2];
-    const dentalItems = [1, 2];
+    const dentalItems = [1];
     const pensionItems = [1, 2];
-    const restaurantItems = [1, 2];
+    const restaurantItems = [1];
 
     return (
         <section ref={sectionRef} className="py-24 px-6 bg-[#f9f9f9] overflow-hidden">
@@ -49,7 +49,7 @@ export default function SpecialProjectSection() {
                         <h3 className="text-2xl font-bold text-deep-charcoal">APEC 예술의 전당</h3>
                         <p className="text-gray-500 mt-1">Special Project Showcase</p>
                     </div>
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                    <div className="grid grid-cols-2 lg:grid-cols-4 gap-6">
                         {/* 1. APEC Stage */}
                         <div className="special-item aspect-square bg-gray-200 relative group overflow-hidden rounded-sm">
                             <Image
