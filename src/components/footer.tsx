@@ -53,7 +53,7 @@ export default function Footer() {
                 </div>
 
                 <div className="border-t border-gray-800 mt-16 pt-8 flex flex-col md:flex-row justify-between items-center text-gray-500 text-sm">
-                    <p>&copy; {new Date().getFullYear()} NAVICHANG. All rights reserved. <span className="opacity-0">v3.0</span></p>
+                    <p>&copy; {new Date().getFullYear()} NAVICHANG. All rights reserved.</p>
                     <div className="flex gap-6 mt-4 md:mt-0">
                         <a href="#" className="hover:text-white transition-colors">이용약관</a>
                         <a href="#" className="hover:text-white transition-colors">개인정보처리방침</a>

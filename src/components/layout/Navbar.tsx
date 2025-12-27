@@ -121,7 +121,7 @@ export default function Navbar() {
             >
                 <div className="flex items-center gap-12">
                     <Link href="/" className="text-2xl font-bold tracking-tighter" onClick={closeMenu}>
-                        NAVICHANG <span className="text-xs bg-red-500 text-white px-1 rounded">Update</span>
+                        NAVICHANG
                     </Link>
                     <div className="hidden md:flex gap-8 text-sm font-medium">
                         {navLinks.map((link) => (
