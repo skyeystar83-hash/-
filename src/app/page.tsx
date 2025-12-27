@@ -1,5 +1,7 @@
 import HeroSection from "@/components/sections/HeroSection";
 import SpecialProjectSection from "@/components/sections/SpecialProjectSection";
+import ReviewSection from "@/components/sections/ReviewSection";
+import ReviewCarousel from "@/components/sections/ReviewCarousel";
 import ConsultationButton from "@/components/ui/ConsultationButton";
 import Image from "next/image";
 // import SolutionPinSection from "@/components/sections/SolutionPinSection"; // Temporarily commented out or replaced
@@ -119,6 +121,9 @@ export default function Home() {
                     <ConsultationButton className="inline-block px-8 py-3 border border-deep-charcoal text-deep-charcoal font-bold text-lg hover:bg-accent-gold hover:text-white hover:border-accent-gold transition-all duration-300" />
                 </div>
             </section>
+
+            {/* Animated Review Carousel */}
+            <ReviewCarousel />
 
             {/* Special Construction Section */}
             <SpecialProjectSection />

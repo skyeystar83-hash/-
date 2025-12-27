@@ -98,10 +98,10 @@ export default function Navbar() {
 
     const navLinks = [
         { name: "홈", href: "/" },
+        { name: "회사소개", href: "/about" },
         { name: "제품소개", href: "/products" },
         { name: "시공사례", href: "/projects" },
         { name: "전동커튼", href: "/electric" },
-        { name: "나비창 이야기", href: "/about" },
         { name: "고객후기", href: "/reviews" },
     ];
 

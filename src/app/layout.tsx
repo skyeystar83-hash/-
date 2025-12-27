@@ -26,17 +26,7 @@ export default function RootLayout({
                         </main>
                         {/* Footer 추후 추가 또는 기존 Footer 사용 */}
 
-                        {/* Mobile Fixed CTA */}
-                        <div className="md:hidden fixed bottom-6 left-0 right-0 px-6 z-50 pointer-events-none flex flex-col gap-2">
-                            <ConsultationButton variant="fixed_mobile" text="무료 실측 · 상담" />
 
-                            {/* Secondary Phone Link */}
-                            <div className="text-center pointer-events-auto">
-                                <a href="tel:010-2027-7812" className="text-xs text-gray-500 underline decoration-gray-300 underline-offset-2">
-                                    급한 상담은 전화 주세요
-                                </a>
-                            </div>
-                        </div>
                     </SmoothScroller>
                 </ConsultationProviderWrapper>
             </body>

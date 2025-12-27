@@ -208,28 +208,33 @@ export default function SpecialProjectSection() {
                     </div>
                 </div>
 
-                {/* Restaurant Section (New) */}
                 <div>
                     <div className="border-l-4 border-accent-gold pl-4 mb-8">
                         <h3 className="text-2xl font-bold text-deep-charcoal">식당</h3>
                         <p className="text-gray-500 mt-1">Restaurants & Cafes</p>
                     </div>
-                    {/* Assuming 2 items for Restaurant as requested ("Allow 2 photos or videos") */}
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 max-w-2xl">
-                        {restaurantItems.map((item) => (
-                            <div key={`restaurant-${item}`} className="special-item aspect-square bg-gray-200 relative group overflow-hidden rounded-sm">
-                                <video
-                                    className="absolute inset-0 w-full h-full object-cover"
-                                    autoPlay
-                                    muted
-                                    loop
-                                    playsInline
-                                >
-                                    <source src={`/videos/식당${item}.mp4`} type="video/mp4" />
-                                </video>
-                                <div className="absolute inset-0 bg-black/10 group-hover:bg-black/0 transition-colors duration-500 pointer-events-none" />
-                            </div>
-                        ))}
+                        <div className="special-item aspect-square bg-gray-200 relative group overflow-hidden rounded-sm">
+                            <video
+                                className="absolute inset-0 w-full h-full object-cover"
+                                autoPlay
+                                muted
+                                loop
+                                playsInline
+                            >
+                                <source src="/videos/식당1.mp4" type="video/mp4" />
+                            </video>
+                            <div className="absolute inset-0 bg-black/10 group-hover:bg-black/0 transition-colors duration-500 pointer-events-none" />
+                        </div>
+                        <div className="special-item aspect-square bg-gray-200 relative group overflow-hidden rounded-sm">
+                            <Image
+                                src="/images/식당3.jpg"
+                                alt="Restaurant Project 2"
+                                fill
+                                className="object-cover transition-transform duration-700 group-hover:scale-110"
+                            />
+                            <div className="absolute inset-0 bg-black/10 group-hover:bg-black/0 transition-colors duration-500 pointer-events-none" />
+                        </div>
                     </div>
                 </div>
             </div>

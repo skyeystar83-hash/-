@@ -24,30 +24,30 @@ export default function Footer() {
                     <div>
                         <h3 className="text-white font-bold mb-4">COMPANY INFO</h3>
                         <div className="flex flex-col gap-2">
-                            <p>상호명 : 나비창 (NAVICHANG)</p>
-                            <p>대표자 : 홍길동</p>
-                            <p>사업자등록번호 : 123-45-67890</p>
-                            <p>통신판매업신고 : 2024-서울강남-00000</p>
-                            <p>주소 : 서울특별시 강남구 테헤란로 123</p>
-                            <p>개인정보관리책임자 : 홍길동</p>
+                            <p>상호명 : 나비창 커튼&블라인드 경주점</p>
+                            <p>대표자 : 서미림</p>
+                            <p>사업자등록번호 : 353-92-01586</p>
+                            <p>통신판매업신고 : -</p>
+                            <p>주소 : 경북 경주시 북문로 40 1층</p>
+                            <p>개인정보관리책임자 : 서미림</p>
                         </div>
                     </div>
 
                     <div>
                         <h3 className="text-white font-bold mb-4">CS CENTER</h3>
-                        <p className="text-2xl text-white font-medium mb-2">010-1234-5678</p>
+                        <p className="text-2xl text-white font-medium mb-2">054-701-2580</p>
                         <div className="flex flex-col gap-1">
-                            <p>평일 : 09:00 - 18:00</p>
-                            <p>점심 : 12:00 - 13:00</p>
-                            <p>토/일/공휴일 휴무</p>
+                            <p>평일 : 10:00 - 19:00</p>
+                            <p>토/일/공휴일 : 사전예약제</p>
+                            <p>연중무휴 (전화 상담 가능)</p>
                         </div>
                     </div>
 
                     <div>
                         <h3 className="text-white font-bold mb-4">BANK INFO</h3>
                         <div className="flex flex-col gap-2">
-                            <p>국민 123-456-78-901234</p>
-                            <p>예금주 : 홍길동(나비창)</p>
+                            <p>농협 123-4567-8901-23</p>
+                            <p>예금주 : 서미림(나비창)</p>
                         </div>
                     </div>
                 </div>
