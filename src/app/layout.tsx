@@ -18,6 +18,7 @@ export default function RootLayout({
     return (
         <html lang="ko">
             <body className="antialiased bg-primary-white text-deep-charcoal">
+                {/* Build Version: 2025-12-27 v2 */}
                 <ConsultationProviderWrapper>
                     <SmoothScroller>
                         <Navbar />
