@@ -24,7 +24,7 @@ export default function AboutPage() {
                 {/* Main Image */}
                 <div className="max-w-6xl mx-auto mb-24 relative aspect-video md:aspect-[21/9] overflow-hidden rounded-sm shadow-2xl">
                     <Image
-                        src="/images/회사소개.jpg"
+                        src="/images/about_main.jpg"
                         alt="KICCOMPANY Premium Interior"
                         fill
                         className="object-cover"
